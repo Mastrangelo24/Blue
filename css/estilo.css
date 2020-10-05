@@ -22,7 +22,7 @@ nav{
 
 .foto{
     margin-left: 10%;
-    margin-top: 40px;
+    margin-top: 75px;
     width: 1200px;
     height: 500px;
     overflow: hidden;
@@ -51,9 +51,9 @@ img[alt~="Blue4"] {
     background:rgba(0, 31, 209, 0.73);
     position: absolute;
     width: 260px;
-    height: 450px;
+    height: 500px;
     margin-left: 75%;
-    margin-top: 70px;
+    margin-top: 75px;
     border-radius: 50px;
     transition: ease-in-out 0.5s;
 }   
@@ -71,8 +71,8 @@ img[alt~="Blue4"] {
 .centro-box{
     color: white;
     text-align: center;
-    font-size: 80px;
-    margin-top: 25px;
+    font-size: 100px;
+    margin-top: 15px;
 }
 .box-1:hover{
     transition:ease-in-out 0.5s;
