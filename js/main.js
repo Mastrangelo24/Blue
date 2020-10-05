@@ -13,3 +13,5 @@
           img[indexValue -1].style.display = "block";
         }
         slideShow();
+
+      

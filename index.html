@@ -10,42 +10,87 @@
         <script src="js/main.js"></script>
     </head>
 <body>
-    <nav>
-        <label for="menu-1" class="menu-1-barra">
-          <i class="fas fa-bars"></i>
-        </label>
-        <label class="logo">Mastrangelo.</label>
-            <ul>
-                <li><a class="active" href="#">Inicio</a></li>          
-                <li><a href="#">Nosotros</a></li>          
-                <li><a href="#">Productos</a></li>          
-                <li><a href="#">Contacto</a></li>          
-            </ul>
-    </nav>
-    <div class="foto">
-        <div class="slide">
-            <img src="https://i.ibb.co/rFBh2y3/NikeBlue.jpg" alt="NikeBlue">
-            <img src="Blue2.jpg" alt="Blue2">
-            <img src="Blue3.jpg" alt="Blue3">
-            <img src="Blue4.jpg" alt="Blue4">
-        </div>
-    </div>   
-            <div class="box-1">
-                <a href="#">
-                    <p><div class="top-box">SALES!!</div></p>
-                        <div class="centro-box">  
-                        <p>20</p>
-                        <p>%</p>
-                        <p>OFF</p>
-                        </div>  
+    <div id="section1"> 
+        <nav>
+            <label for="menu-1" class="menu-1-barra">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo">Mastrangelo.</label>
+                <ul>
+                    <li><a class="active" href="#section1">Inicio</a></li>          
+                    <li><a href="#section2">Nosotros</a></li>          
+                    <li><a href="#section3">Productos</a></li>          
+                    <li><a href="#section4">Contacto</a></li>          
+                </ul>
+        </nav>    
+            <div class="foto">
+                <div class="slide">
+                    <img src="https://i.ibb.co/rFBh2y3/NikeBlue.jpg" alt="NikeBlue">
+                    <img src="Blue2.jpg" alt="Blue2">
+                    <img src="Blue3.jpg" alt="Blue3">
+                    <img src="Blue4.jpg" alt="Blue4">
+                </div>
+            </div>   
+                <div class="box-1">
+                    <a href="#section2">
+                            <p><div class="top-box">SALES!!</div></p>
+                            <div class="centro-box">  
+                            <p>20</p>
+                            <p>%</p>
+                            <p>OFF</p>
+                            </div>  
                     </a>        
+                </div>
             </div>
-    </div>
+        </div>  
+
     <footer class="futer">
         <a href="#"><p>Trabaja con nosotros</p></a>
         <a href="#"><p>Terminos y condiciones</p></a>
         <a href="#"><p>Como cuidamos tu privacidad</p></a>
         <a href="#"><p>Ayuda</p></a>
     </footer>
+
+    <div id="section2">
+        <div class="container"> 
+            <h1 class="titulo2">NOSOTROS</h1>
+                <p class="texto1">"Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="texto1"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <p class="texto1"> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p class="texto1">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam"</p>
+            <form action="#section1">
+                   <input type="submit" class="form1" value="INICIO"></input>
+            </form>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    <div id="section4">
+        <div class="container4">
+           <div class="headcontacto"> 
+            <h1 class="titulo4">CONTACTO</h1>
+           </div>
+                <form class="contacto1" action="action-page.php">
+                    <label for="Nombre"></label>
+                    <input type="text" placeholder = "Nombre">
+
+                    <label for="Email"></label>
+                    <input type="text" placeholder="Mail">
+
+                    <label for="Asunto"></label>
+                    <textarea id= "text-area" name="asunto" placeholder="Escribe algo..."></textarea>
+                </form>  
+                <input class="botonform" type="submit" value="Enviar">  
+            </div>
+            <form action="#section1">
+                <input type="submit" class="form4" value="INICIO"></input>
+         </form>
+        </div>
+    </div>
 </body>
 </html>

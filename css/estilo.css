@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -12,6 +16,7 @@ body{
 }
 
 nav{
+    position: sticky;
     background-color: black;
     width: 80%;
     height: 100px;
@@ -129,7 +134,7 @@ label.logo{
 }
 
 .futer{
-    position: fixed;
+    position: absolute;
     bottom: 0px;
     width: 80%;
     height: 100px;
@@ -150,4 +155,204 @@ label.logo{
 
 .futer a:hover{
     color:rgba(77, 103, 255, 1)
+}
+
+#section1{
+    height: 1000px;
+    width: 100%;
+}
+
+#section2{
+    width: 100%;
+    background-color: white;
+    height: 800px;
+    background-image: url(../Blue5.jpg);
+    background-repeat: no-repeat;
+    background-position: 25% 40%;
+}
+
+.container{
+    width: 1500px;
+    height: 85%;
+    background-color: transparent;
+    margin-left: 150px; 
+}
+
+.titulo2{
+    font-size: 75px;
+    padding-left: 41.5%;
+
+}
+
+.titulo2::after{
+    content: "";
+    height: 5px;
+    width: 150px;
+    background: black;
+    position: absolute;
+    border-radius: 70px;
+    margin-top: 85px;
+    left: 43%;
+}   
+
+.texto1{
+    width: 450px;
+    margin-left: 65%;
+    font-size: 26px;
+    padding-top: 40px;
+}
+
+.form1{
+    width: 150px;
+    height: 70px;
+    margin-left: 80%;
+    position: absolute;
+    margin-bottom: 45%;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 45px;
+    font-size: 45px;
+    padding-top: 5px;
+    padding-left: 4px;
+}
+.form1:active{
+    background-color: white;
+    color: black;
+}
+
+.form1:focus{
+    border-style: none;
+    outline: none;
+}
+
+
+
+#section3{
+    height: 1000px;
+    width: 100%
+}
+
+#section4{
+    height: 900px;
+    width: 100%;
+    background-color: white;
+}
+
+.titulo4{
+    font-size: 75px;
+    padding-left: 35%;
+    color: white;
+    
+
+}
+
+.titulo4::after{
+    content: "";
+    height: 5px;
+    width: 150px;
+    background: white;
+    position: absolute;
+    border-radius: 70px;
+    margin-top: 80px;
+    left: 40.5%
+}
+.headcontacto{
+    width: 750px;
+    height: 100px;
+    background: black;
+
+
+}
+
+.contacto1{
+    width: 150px;
+    text-align: left;
+    font-size: 50px;
+    padding-left: 55px;
+    padding-top: 50px;   
+    
+}
+
+.contacto1 input{
+    margin: 25px;
+    width: 250px;
+    height: 45px;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 30px;
+    border-bottom: 2px solid black;
+}
+
+.container4{
+    width: 750px;
+    height: 650px;  
+    position: absolute;  
+    margin-left: 30%;
+    margin-top: 150px;
+    background: rgba(77, 103, 255, 1);
+    
+}
+
+
+::placeholder{
+    font-size: 30px;
+    background: transparent;
+    color: black;
+}
+
+#text-area{
+    width: 250px;
+    max-width: 350px;
+    height: 150px;
+    max-height: 200px;
+    margin-left: 23px;
+    background-color: transparent;
+    border-style: none;
+    border-bottom: 3px solid black;
+    font-size: 30px;
+    
+}
+
+#text-area:focus{
+    border-style: none;
+    outline: none;
+}
+
+.botonform{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 150px;
+    height: 50px;
+    font-size: 35px;
+    background-color: black;
+    border-radius: 45px;
+    color: white;
+    border-style: none;
+    outline: none;
+}
+.form4{
+    width: 150px;
+    height: 70px;
+    margin-left: 88%;
+    position: absolute;
+    margin-top: 40%;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 45px;
+    font-size: 45px;
+    padding-top: 5px;
+    padding-left: 4px;
+}
+
+.form4:active{
+    background-color: white;
+    color: black;
+}
+
+.form4:focus{
+    border-style: none;
+    outline: none;
 }
