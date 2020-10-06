@@ -85,6 +85,8 @@ img[alt~="Blue4"] {
 
 
 }
+ 
+/* COMIENZO DE CSS DEL NAVEGADOR */
 
 nav ul{
     float: right;
@@ -133,6 +135,8 @@ label.logo{
     display: none;
 }
 
+/* COMIENZO CSS DEL FOOTER */
+
 .futer{
     position: absolute;
     bottom: 0px;
@@ -177,6 +181,8 @@ label.logo{
     background-color: transparent;
     margin-left: 150px; 
 }
+
+/* COMIENZO CSS TITULO NOSOTROS */
 
 .titulo2{
     font-size: 75px;
@@ -232,6 +238,8 @@ label.logo{
     height: 1000px;
     width: 100%
 }
+
+/* COMIENZO SECCION 4 CONTACTO */
 
 #section4{
     height: 900px;
