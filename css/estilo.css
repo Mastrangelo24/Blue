@@ -166,20 +166,23 @@ label.logo{
     width: 100%;
 }
 
+ /* COMIENZO SECTION 2 NOSOTROS */
+
 #section2{
     width: 100%;
     background-color: white;
     height: 800px;
     background-image: url(../Blue5.jpg);
     background-repeat: no-repeat;
-    background-position: 25% 40%;
+    background-position: 25% 60%;
 }
 
 .container{
     width: 1500px;
     height: 85%;
     background-color: transparent;
-    margin-left: 150px; 
+    margin-left: 150px;
+    padding-top: 70px;
 }
 
 /* COMIENZO CSS TITULO NOSOTROS */
@@ -242,7 +245,7 @@ label.logo{
 /* COMIENZO SECCION 4 CONTACTO */
 
 #section4{
-    height: 900px;
+    height: 1000px;
     width: 100%;
     background-color: white;
 }
@@ -262,19 +265,19 @@ label.logo{
     background: white;
     position: absolute;
     border-radius: 70px;
-    margin-top: 80px;
+    margin-top: 85px;
     left: 40.5%
 }
 .headcontacto{
     width: 750px;
     height: 100px;
     background: black;
-
-
 }
 
+/* CONTAINER SECTION 4 CONTACTO */
+
 .contacto1{
-    width: 150px;
+    width: 120px;
     text-align: left;
     font-size: 50px;
     padding-left: 55px;
@@ -290,25 +293,27 @@ label.logo{
     background: none;
     outline: none;
     font-size: 30px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid white;
+    color: white;
 }
 
 .container4{
     width: 750px;
-    height: 650px;  
+    height: 620px;  
     position: absolute;  
     margin-left: 30%;
-    margin-top: 150px;
+    margin-top: 137px;
     background: rgba(77, 103, 255, 1);
+    border-radius: 45px;
     
 }
-
 
 ::placeholder{
     font-size: 30px;
     background: transparent;
-    color: black;
+    color:  white;
 }
+
 
 #text-area{
     width: 250px;
@@ -318,9 +323,9 @@ label.logo{
     margin-left: 23px;
     background-color: transparent;
     border-style: none;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid  white;
     font-size: 30px;
-    
+    color: white;
 }
 
 #text-area:focus{
@@ -336,10 +341,16 @@ label.logo{
     font-size: 35px;
     background-color: black;
     border-radius: 45px;
-    color: white;
+    color:  white;
     border-style: none;
     outline: none;
 }
+
+.botonform:active{
+    background-color: white;
+    color: black;
+}
+
 .form4{
     width: 150px;
     height: 70px;
