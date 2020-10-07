@@ -375,3 +375,239 @@ label.logo{
     border-style: none;
     outline: none;
 }
+
+/* COMIENZO CSS SECTION 5 */
+
+#section5{
+    height: 1000px;
+    width: 100%;
+    background-color: white;
+}
+
+.titulo5{
+    font-size: 75px;
+    padding-left: 35%;
+    color: black;
+    padding-top: 70px;
+}
+
+.titulo5::after{
+    content: "";
+    height: 5px;
+    width: 400px;
+    background: black;
+    position: absolute;
+    border-radius: 70px;
+    margin-top: 85px;
+    left: 40%
+}
+
+.form5{
+    width: 150px;
+    height: 70px;
+    margin-left: 88%;
+    position: absolute;
+    margin-top: 2%;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 45px;
+    font-size: 45px;
+    padding-top: 5px;
+    padding-left: 4px;
+}
+
+.form5:active{
+    background-color: white;
+    color: black;
+}
+
+.form5:focus{
+    border-style: none;
+    outline: none;
+}
+
+.terminos{
+    font-size: 23px;
+    width: 1800px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+/* COMIENZO CSS SECTION 6 PRIVACIDAD */
+
+#section6{
+    height: 1000px;
+    width: 100%;
+    background-color: white;
+    background-image: url(../privacidad.jpg);
+    background-repeat: no-repeat;
+    background-position: 90% 45%;
+}
+
+.titulo6{
+    font-size: 75px;
+    padding-left: 35%;
+    color: black;
+    padding-top: 70px;
+}
+
+.titulo6::after{
+    content: "";
+    height: 5px;
+    width: 480px;
+    background: black;
+    position: absolute;
+    border-radius: 70px;
+    margin-top: 85px;
+    left: 41%
+}
+
+.form6{
+    width: 150px;
+    height: 70px;
+    margin-left: 88%;
+    position: absolute;
+    margin-top: 2%;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 45px;
+    font-size: 45px;
+    padding-top: 5px;
+    padding-left: 4px;
+}
+
+.form6:active{
+    background-color: white;
+    color: black;
+}
+
+.form6:focus{
+    border-style: none;
+    outline: none;
+}
+
+.privacidad{
+    font-size: 20px;
+    width: 1000px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+/* COMIENZO CSS SECTION 7 AYUDA */
+
+#section7{
+    height: 1000px;
+    width: 100%;
+    background-color: white;
+}
+
+.titulo7{
+    font-size: 75px;
+    padding-left: 45%;
+    color: black;
+    padding-top: 70px;
+}
+
+.titulo7::after{
+    content: "";
+    height: 5px;
+    width: 100px;
+    background: black;
+    position: absolute;
+    border-radius: 70px;
+    margin-top: 85px;
+    left: 46.5%
+}
+
+.titulo7b{
+    margin-left: 5%;
+    font-size: 35px;
+    padding-top: 35px;
+
+}
+
+.form7{
+    width: 150px;
+    height: 70px;
+    margin-left: 88%;
+    position: absolute;
+    margin-top: 30%;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 45px;
+    font-size: 45px;
+    padding-top: 5px;
+    padding-left: 4px;
+}
+
+.form7:active{
+    background-color: white;
+    color: black;
+}
+
+.form7:focus{
+    border-style: none;
+    outline: none;
+}
+
+/* CSS LINKS */
+
+.ayuda1{
+    width: 400px;
+    padding-left: 95px;
+    position: absolute;
+    display: inline-block;
+    font-size: 25px;
+
+}
+
+
+.ayuda2{
+    width: 400px;
+    padding-left: 95px;
+    padding-top: 13%;
+    position: absolute;
+    display: inline-block;
+    font-size: 25px;
+}
+
+
+.ayuda3{
+    width: 400px;
+    margin-left: 38%;
+    padding-bottom: 80%;
+    position: absolute;
+    display: inline-block;
+    font-size: 25px;
+}    
+
+.ayuda4{
+    width: 400px;
+    margin-left: 38%;
+    margin-top: 13%;
+    display: inline-block;
+    position: absolute;
+    font-size: 25px;
+}
+
+.ayuda5{
+    width: 400px;
+    margin-left: 72%;
+    margin-bottom: 70%;
+    margin-top: 0;
+    display: inline-block;
+    position: absolute;
+    font-size: 25px;
+}    
+
+.ayuda6{
+    width: 400px;
+    margin-left: 72%;
+    margin-top: 13%;
+    display: inline-block;
+    position: absolute;
+    font-size: 25px;
+}
