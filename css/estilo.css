@@ -518,15 +518,28 @@ label.logo{
     position: absolute;
     border-radius: 70px;
     margin-top: 85px;
-    left: 46.5%
+    left: 46.3%
 }
 
 .titulo7b{
     margin-left: 5%;
     font-size: 35px;
     padding-top: 35px;
-
+    margin-bottom: 15px;
 }
+
+.titulo7b::after{
+    content: "";
+    height: 5px;
+    width: 335px;
+    background: black;
+    position: absolute;
+    border-radius: 70px;
+    margin-top: 43px;
+    left: 5%
+}
+
+
 
 .form7{
     width: 150px;
@@ -553,7 +566,11 @@ label.logo{
     outline: none;
 }
 
-/* CSS LINKS */
+/* CSS LINKS SECTION AYUDA */
+
+.titulob{
+    color: rgba(77, 103, 255, 1);
+}
 
 .ayuda1{
     width: 400px;
@@ -564,7 +581,6 @@ label.logo{
 
 }
 
-
 .ayuda2{
     width: 400px;
     padding-left: 95px;
@@ -573,7 +589,6 @@ label.logo{
     display: inline-block;
     font-size: 25px;
 }
-
 
 .ayuda3{
     width: 400px;
@@ -611,3 +626,88 @@ label.logo{
     position: absolute;
     font-size: 25px;
 }
+
+/*CSS SECTION 3 PRODUCTOS E IMAGENES*/
+
+#section3{
+    height: 1200px;
+    width: 100%;
+    background-color: none;
+    
+}
+
+.titulo3{
+    font-size: 75px;
+    color: blacK;
+    margin-bottom: 50%;
+    position: absolute;
+}
+
+.titulo3::after{
+    content: "";
+    height: 5px;
+    width: 200px;
+    background: black;
+    position: absolute;
+    border-radius: 70px;
+    margin-top: 85px;
+    left: 13%
+}
+
+.comprar{
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    top: 80%;  
+    left: 33%;
+}
+
+/*IMAGENES*/
+
+.productos{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 80px;
+    left: 55px;
+    transform-style: preserve-3d;
+    transition: ease-in-out .3s;
+}
+
+.section3{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1200px;
+    transform-style: preserve-3d;
+}
+
+.caja{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: 40px;
+    background: rgba(77, 103, 255, 1);
+    border-radius: 20px;
+    transform-style: preserve-3d;
+    bottom: 10%;
+    transition: ease-in-out .3s;
+}
+
+.circulo{
+    position: absolute;
+    top: 22%;
+    left: 14%;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background: white;
+    transform-style: preserve-3d;
+}
+
+.caja:hover{
+    transition: ease-in-out .3s;
+    transform: translate3d(-100%,-100%,800px);
+}   
